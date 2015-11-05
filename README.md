@@ -1,6 +1,6 @@
 ### Description ###
-The muscleDriverCANInterface is another low-level communication layer, i.e. hardware interface.
-It works through driver library canlib.
+The muscleDriverCANInterface is a command line interface for low-level communication with the dc motors via CAN.
+It works through driver library canlib. 
 
 ### Dependencies ###
 install libcanlib (on linux) via:
