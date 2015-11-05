@@ -1,6 +1,6 @@
 ### Description ###
 The dcmotorCANInterface is a command line interface for low-level communication with the dc motors via CAN.
-It works through driver library canlib. 
+It works through driver library [canlib](http://www.kvaser.com/downloads/) 
 
 ### Dependencies ###
 install libcanlib (on linux) via:
