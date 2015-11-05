@@ -7,7 +7,7 @@ install libcanlib (on linux) via:
 
 ```
 #!bash
-cd path/to/flexrayusbinterface/lib
+cd path/to/muscledrivercaninterface/lib
 tar -xvzf linuxcan.tar.gz
 cd linuxcan
 make
@@ -17,7 +17,7 @@ sudo make install
 
 ```
 #!bash
-cd path/to/flexrayusbinterface
+cd path/to/muscledrivercaninterface
 cmake .
 make
 ```
