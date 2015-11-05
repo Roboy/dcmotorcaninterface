@@ -1,6 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
-PROJECT(muscleDriverCANInterface)
+PROJECT(dcmotorCANInterface)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
 
@@ -25,9 +25,9 @@ SET( LIBS
 FILE(GLOB incs "include/*.h")
 FILE(GLOB srcs "src/*.cpp")
 
-ADD_EXECUTABLE(muscleDriverCANInterface ${incs} ${srcs} )
+ADD_EXECUTABLE(dcmotorCANInterface ${incs} ${srcs} )
 
-TARGET_LINK_LIBRARIES(muscleDriverCANInterface ${LIBS})
+TARGET_LINK_LIBRARIES(dcmotorCANInterface ${LIBS})
 
 
 
